@@ -17,7 +17,7 @@ $ npm install -g coffee-script
 $ npm install -g http-server
 ```
 
-## Then run these guys
+## Then run these
 
 Each of these get their own `terminal`
 
@@ -27,10 +27,10 @@ $ coffee -wc /js
 $ http-server -p 4040
 ```
 
-## Good times ahoy
+## Good times ahead
 
 `http://localhost:3131`
 
-⛵️
+🏩
 
 [moma]:http://www.momastore.org/museum/moma/ProductDisplay?storeId=10001&catalogId=10451&langId=-1&categoryId=11526&parent_category_rn=26674&productId=164102&keyWord=Perpetual%20Wall%20Calendar&purpose=crawl

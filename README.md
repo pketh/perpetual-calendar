@@ -22,14 +22,14 @@ $ npm install -g http-server
 Each of these get their own `terminal`
 
 ```bash
-$ stylus -u autoprefixer-stylus --watch css/main.styl
-$ coffee -wc /js
+$ stylus -u autoprefixer-stylus --watch css/styles.styl
+$ coffee -wc js/
 $ http-server -p 4040
 ```
 
 ## Good times ahead
 
-Go to `http://localhost:3131`
+Go to `http://localhost:4040`
 
 🏩
 

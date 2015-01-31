@@ -13,7 +13,6 @@ Modern art
 ```bash
 $ npm install -g stylus
 $ npm install -g autoprefixer-stylus
-$ npm install -g coffee-script
 $ npm install -g http-server
 ```
 
@@ -23,7 +22,6 @@ Each of these get their own `terminal`
 
 ```bash
 $ stylus -u autoprefixer-stylus --watch css/styles.styl
-$ coffee -wc js/
 $ http-server -p 4040
 ```
 

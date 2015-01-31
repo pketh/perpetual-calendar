@@ -29,7 +29,7 @@ $ http-server -p 4040
 
 ## Good times ahead
 
-`http://localhost:3131`
+Go to `http://localhost:3131`
 
 🏩
 

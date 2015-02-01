@@ -1,9 +1,10 @@
 $(function() {
 
-  var day = moment().format('ddd'),
+  var panelIsClickable = true,
+    day = moment().format('ddd'),
     month = moment().format('MMM'),
     num = moment().format('D'),
-    panelIsClickable = true;
+    tomorrow = moment().add(1, 'day').startOf('day');
 
   colorPanels();
   $('figure').click(function() {
@@ -32,10 +33,20 @@ $(function() {
     panelIsClickable = true;
   }
 
-  $('.day').text(day);
-  $('.month').text(month);
-  $('.num').text(num);
+  updateDate()
+  function updateDate() {
+    $('.day').text(day);
+    $('.month').text(month);
+    $('.num').text(num);
+  }
 
-  // refresh each day at 12:01am for users time zone
+  setInterval(checkDate, 1000 * 60 * 60);
+  function checkDate() {
+    if (moment().isAfter(tomorrow)) {
+      updateDate();
+      colorPanels();
+      tomorrow = moment().add(1, 'day').startOf('day');
+    }
+  }
 
 });

@@ -1,10 +1,9 @@
 [still in progress]
 
 TODO:
+- auto refresh each morning (so you could use this as a wall panel)
 - check mobile
-- add animation (jiggle, slide in)
 - fix line panel align bug
-- fix rapid click bug
 - finish readme
 - add favicon
 
@@ -17,6 +16,11 @@ Dan Reisinger designed
 Modern art
 
 [MOMA Perpetual Wall Calendar][MOMA]
+
+The original MoMA pitch for it is "A calendar that never goes out of date"...
+
+- auto refresh each morning
+- randomized colors with pleasant combos
 
 ## To run locally
 

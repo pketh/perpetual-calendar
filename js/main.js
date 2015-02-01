@@ -43,7 +43,6 @@ $(function() {
   setInterval(checkDate, 1000 * 60 * 60);
   function checkDate() {
     if (moment().isAfter(tomorrow)) {
-      console.log("checking date") //
       updateDate();
       colorPanels();
       tomorrow = moment().add(1, 'day').startOf('day');

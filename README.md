@@ -1,8 +1,6 @@
 [still in progress]
 
 TODO:
-- [ ] check mobile
-- [ ] fix line panel align bug
 - [ ] finish writing readme
 - [ ] add favicon
 

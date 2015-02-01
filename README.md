@@ -6,6 +6,7 @@ TODO:
 - fix line panel align bug
 - fix rapid click bug
 - finish readme
+- add favicon
 
 [composited sheet sample image goes here]
 

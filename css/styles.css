@@ -5,9 +5,14 @@ body {
   background-color: #000;
   color: #fff;
 }
-a {
+.info a {
   color: #fff;
   text-decoration: none;
+  opacity: 0.3;
+}
+.info a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
 }
 main {
   width: 95%;
@@ -58,7 +63,6 @@ svg {
   font-size: 1em;
   text-align: center;
   margin-bottom: 5.5em;
-  opacity: 0.3;
 }
 footer img {
   margin-left: auto;

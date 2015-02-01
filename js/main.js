@@ -2,15 +2,19 @@ $(function() {
 
   var day = moment().format('ddd'),
     month = moment().format('MMM'),
-    num = moment().format('D');
+    num = moment().format('D'),
+    panelIsClickable = true;
 
   colorPanels();
   $('figure').click(function() {
-    colorPanels();
+    if (panelIsClickable) {
+      panelIsClickable = false;
+      colorPanels();
+    }
   })
 
   function colorPanels() {
-    var colors = randomColor({count: 6}); //luminosity: 'light',
+    var colors = randomColor({count: 6});
     colors.forEach(function(color, index) {
       var panel = '.panel' + (index + 1) + ' path';
       $(panel)[0].setAttribute('fill', color);
@@ -25,6 +29,7 @@ $(function() {
     shuffledPanels.each(function(index, panel) {
       $('figure').prepend(panel)
     })
+    panelIsClickable = true;
   }
 
   $('.day').text(day);

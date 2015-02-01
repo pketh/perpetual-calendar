@@ -1,6 +1,6 @@
 # perpetual-calendar
 
-<img src="img/screenshot.png">
+<img src="img/screenshot2.png">
 
 originally designed by [Dan Reisinger][dan] in 1987
 

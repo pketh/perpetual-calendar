@@ -35,12 +35,17 @@ svg {
 }
 .date {
   text-transform: uppercase;
-  font-size: 4em;
-  margin-bottom: 3em;
+  font-size: 5em;
+  margin-bottom: 0.75em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
 }
 .date div {
   float: left;
   text-align: center;
+  width: 33%;
 }
 .info {
   display: block;

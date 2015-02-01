@@ -1,6 +1,6 @@
 # perpetual-calendar
 
-<img src=“img/screenshot.png" width=“400” height=“auto” style=“width:400px”>
+<img src="img/screenshot.png" width="400px">
 
 A neat web based calendar with semi-randomly generated covers based on the 1987 MoMA [Perpetual Wall Calendar][moma] designed by [Dan Reisinger][dan].
 

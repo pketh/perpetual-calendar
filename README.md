@@ -17,7 +17,9 @@ Modern art
 
 [MOMA Perpetual Wall Calendar][MOMA]
 
-## First install some stuff
+## To run locally
+
+### First install some stuff
 
 ```bash
 $ npm install -g stylus
@@ -25,7 +27,7 @@ $ npm install -g autoprefixer-stylus
 $ npm install -g http-server
 ```
 
-## Then run these
+### Then run these
 
 Each of these get their own `terminal`
 
@@ -34,7 +36,7 @@ $ stylus -u autoprefixer-stylus --watch css/styles.styl
 $ http-server -p 4040
 ```
 
-## Good times ahead
+### Good times ahead
 
 Go to `http://localhost:4040`
 

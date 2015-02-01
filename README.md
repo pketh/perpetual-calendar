@@ -13,6 +13,8 @@ In some ways it’s better than the paper-based original:
 
 [View live][project]
 
+<img src="img/screenshot2.png" width="400px">
+
 ## To build locally
 
 ### First install some stuff

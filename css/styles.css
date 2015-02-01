@@ -7,6 +7,7 @@ body {
 }
 a {
   color: #fff;
+  text-decoration: none;
 }
 main {
   width: 95%;
@@ -47,9 +48,22 @@ svg {
   text-align: center;
   width: 33%;
 }
-.pketh {
+footer img {
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: inline-block;
+  opacity: 0.3;
+  transition: all 0.1s;
+}
+footer img:hover {
+  opacity: 0.7;
+}
+.octocat {
+  width: 1.5em;
+  vertical-align: 10%;
+  margin-left: 1.5em;
+}
+footer {
   margin-bottom: 4em;
+  text-align: center;
 }

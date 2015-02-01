@@ -3,6 +3,7 @@
 TODO:
 - check mobile
 - add animation (jiggle, slide in)
+- fix line panel align bug
 - fix rapid click bug
 - finish readme
 

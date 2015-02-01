@@ -1,12 +1,6 @@
-[still in progress]
-
-TODO:
-- [ ] finish writing readme
-- [ ] add favicon
-
-[composited sheet sample image goes here]
-
 # perpetual-calendar
+
+<img src="img/screenshot.png">
 
 originally designed by [Dan Reisinger][dan] in 1987
 

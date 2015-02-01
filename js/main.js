@@ -9,7 +9,6 @@ $(function() {
   $('figure').click(function() {
     if (panelIsClickable) {
       panelIsClickable = false;
-      $('.loader').addClass('showLoading');
       colorPanels();
     }
   })
@@ -30,7 +29,6 @@ $(function() {
     shuffledPanels.each(function(index, panel) {
       $('figure').prepend(panel)
     })
-    $('.loader').removeClass('showLoading')
     panelIsClickable = true;
   }
 

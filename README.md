@@ -1,11 +1,10 @@
 [still in progress]
 
 TODO:
-- auto refresh each morning (so you could use this as a wall panel)
-- check mobile
-- fix line panel align bug
-- finish readme
-- add favicon
+- [ ] check mobile
+- [ ] fix line panel align bug
+- [ ] finish writing readme
+- [ ] add favicon
 
 [composited sheet sample image goes here]
 
@@ -19,7 +18,9 @@ Modern art
 
 The original MoMA pitch for it is "A calendar that never goes out of date"...
 
-- auto refresh each morning
+In some ways it's better than the paper-based original:
+
+- updates itself every morning so you could use it as a digital poster
 - randomized colors with pleasant combos
 
 ## To run locally

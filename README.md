@@ -1,5 +1,11 @@
 [still in progress]
 
+TODO:
+- check mobile
+- add animation (jiggle, slide in)
+- fix rapid click bug
+- finish readme
+
 [composited sheet sample image goes here]
 
 # perpetual-calendar
